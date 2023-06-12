@@ -22,7 +22,7 @@
 	transition: color .5s ease 0s;
 }
 
-nav a:hover {
+.link:hover {
 	color: #000000;
 }
 
