@@ -1,4 +1,4 @@
 'use client'
-export default function ErrorWrapper() {
-	return <h1>Error...</h1>
+export default function ErrorWrapper({ error }: { error: Error }) {
+	return <h1>{error.message}</h1>
 }
