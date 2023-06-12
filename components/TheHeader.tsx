@@ -7,9 +7,9 @@ function TheHeader() {
 	return (
 		<header className={s.header}>
 			<nav className={s.nav}>
-				<Link href='/'>Home</Link>
-				<Link href='/blog'>Blog</Link>
-				<Link href='/about'>About</Link>
+				<Link className={s.link} href='/'>Home</Link>
+				<Link className={s.link} href='/blog'>Blog</Link>
+				<Link className={s.link} href='/about'>About</Link>
 			</nav>
 		</header>
 	)
