@@ -1,0 +1,29 @@
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: gray;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+	font-size: 20px;
+	line-height: 1.5;
+	height: 70px;
+}
+
+nav a {
+	color: white;
+	font-weight: 700;
+	letter-spacing: 1px;
+	transition: color .5s ease 0s;
+}
+
+nav a:hover {
+	color: #000000;
+}
+
+.footer {}
